@@ -1,5 +1,6 @@
 def my_collect(array) 
-  array.collect {|arrays| sentence.upcase.first 
-end 
+ new_array = array.collect {|arrays| arrays.upcase
+  new_array.split (" ")
+  end 
 end
  
